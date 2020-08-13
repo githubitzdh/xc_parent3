@@ -8,7 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * @author zhandehuang@itcast.cn
  * @version 1.0
- * @date 2020/6/29 0029
  **/
 @SpringBootApplication
 @EntityScan("com.czxy.xuecheng.domain.cms")                     //扫描实体类
