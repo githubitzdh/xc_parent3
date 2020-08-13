@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:31001}
+spring:
+  application:
+    name: xc_service_manage_cms
+  data:
+    mongodb:
+      uri:  mongodb://root:root@localhost:27017
+      database: xc_cms
+  freemarker:
+    cache: false  #关闭模板缓存，方便测试
+    settings:
+      template_update_delay: 0
