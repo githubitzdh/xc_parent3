@@ -1,5 +1,6 @@
 package com.czxy.xuecheng.domain.test;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;
@@ -13,6 +14,7 @@ import java.util.Date;
  */
 @Data
 @ToString
+@AllArgsConstructor
 @Document(collection = "user_test")
 public class UserTest {
 
@@ -28,4 +30,5 @@ public class UserTest {
     public void UserSay(){
         System.out.println("用户在说话");
     }
+    private String age;
 }
