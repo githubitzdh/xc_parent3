@@ -25,6 +25,11 @@ public class UserTest {
 
     @Column(name="create_time")
     private Date createTime;
+
+
+    public void UserSay(){
+        System.out.println("用户在说话");
+    }
     private String age;
     private String code;
 }
