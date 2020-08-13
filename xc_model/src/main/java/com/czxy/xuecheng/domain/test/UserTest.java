@@ -26,4 +26,5 @@ public class UserTest {
     @Column(name="create_time")
     private Date createTime;
     private String age;
+    private String code;
 }
