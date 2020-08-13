@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- *
+ *黄爹爹
  */
 @Data
 @ToString
@@ -53,7 +53,23 @@ public class CmsPage {
     private String htmlFileId;
     //数据Url
     private String dataUrl;
-
-
-
+ private String uu;
+    public CmsPage(String siteId, String pageId, String pageName, String pageAliase, String pageWebPath, String pageParameter, String pagePhysicalPath, String pageType, String pageTemplate, String pageHtml, String pageStatus, Date pageCreateTime, String templateId, List<CmsPageParam> pageParams, String htmlFileId, String dataUrl) {
+        this.siteId = siteId;
+        this.pageId = pageId;
+        this.pageName = pageName;
+        this.pageAliase = pageAliase;
+        this.pageWebPath = pageWebPath;
+        this.pageParameter = pageParameter;
+        this.pagePhysicalPath = pagePhysicalPath;
+        this.pageType = pageType;
+        this.pageTemplate = pageTemplate;
+        this.pageHtml = pageHtml;
+        this.pageStatus = pageStatus;
+        this.pageCreateTime = pageCreateTime;
+        this.templateId = templateId;
+        this.pageParams = pageParams;
+        this.htmlFileId = htmlFileId;
+        this.dataUrl = dataUrl;
+    }
 }
