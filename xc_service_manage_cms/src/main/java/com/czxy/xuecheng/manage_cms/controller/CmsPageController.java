@@ -16,7 +16,6 @@ import javax.annotation.Resource;
 /**
  * @author zhandehuang@itcast.cn
  * @version 1.0
- * @date 2020/6/29 0029
  **/
 @RestController
 @RequestMapping("/cms/page")
