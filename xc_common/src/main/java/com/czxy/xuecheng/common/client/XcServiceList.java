@@ -2,7 +2,8 @@ package com.czxy.xuecheng.common.client;
 
 /**
  * 学成项目服务列表
-王培岛我儿子
+  詹姆斯是我孙子，
+ 小兰是我儿子
  */
 public class XcServiceList {
 
