@@ -31,6 +31,7 @@ public class ExceptionCatch {
     public ResponseResult customException(CustomException customException){
         customException.printStackTrace();
         //记录日志
+        System.err.println("小兰兰");
         LOGGER.error("catch exception:{}",customException.getMessage());
         ResultCode resultCode = customException.getResultCode();
         return new ResponseResult(resultCode);
@@ -48,7 +49,9 @@ public class ExceptionCatch {
         //从EXCEPTIONS中找异常类型所对应的错误代码，如果找到了将错误代码响应给用户，如果找不到给用户响应99999异常
         ResultCode resultCode = EXCEPTIONS.get(exception.getClass());
         if(resultCode !=null){
+            System.err.println("小壮壮");
             return new ResponseResult(resultCode);
+
         }else{
             //返回99999异常
             return new ResponseResult(CommonCode.SERVER_ERROR);
@@ -59,6 +62,7 @@ public class ExceptionCatch {
 
     static {
         //定义异常类型所对应的错误代码
+        System.err.println("小刚才");
         builder.put(HttpMessageNotReadableException.class,CommonCode.INVALID_PARAM);
     }
 }

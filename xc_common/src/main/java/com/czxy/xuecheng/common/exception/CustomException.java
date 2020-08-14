@@ -13,6 +13,7 @@ public class CustomException extends RuntimeException {
 
     public CustomException(ResultCode resultCode){
         this.resultCode = resultCode;
+        System.err.println("测试数据");
     }
     public ResultCode getResultCode(){
         return resultCode;

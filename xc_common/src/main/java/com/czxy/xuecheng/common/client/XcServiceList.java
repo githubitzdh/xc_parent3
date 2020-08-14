@@ -2,8 +2,11 @@ package com.czxy.xuecheng.common.client;
 
 /**
  * 学成项目服务列表
+ * 65446564
  */
 public class XcServiceList {
+
+
     public static final String XC_GOVERN_CENTER = "xc_govern_center";
     public static final String XC_SERVICE_PORTALVIEW = "xc_service_portalview";
     public static final String XC_SERVICE_SEARCH = "xc_service_search";
