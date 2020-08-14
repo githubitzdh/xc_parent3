@@ -54,6 +54,7 @@ public class ExceptionCatch {
 
         }else{
             //返回99999异常
+            System.err.println("66666666666");
             return new ResponseResult(CommonCode.SERVER_ERROR);
         }
 
