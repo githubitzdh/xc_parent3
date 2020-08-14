@@ -15,6 +15,7 @@ import javax.annotation.Resource;
 
 /**
  * @author zhandehuang@itcast.cn
+ * 321132123
  **/
 @RestController
 @RequestMapping("/cms/page")
@@ -39,7 +40,7 @@ public class CmsPageController  implements CmsPageControllerApi {
         //2 设置状态
         QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS,queryResult);
         return queryResponseResult;*/
-
+      //213123
         return pageService.findList(page,size,queryPageRequest);
 
     }
