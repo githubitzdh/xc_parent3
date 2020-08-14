@@ -18,6 +18,7 @@ public class CustomException extends RuntimeException {
     }
     public ResultCode getResultCode(){
         System.err.println("5132321");
+        System.err.println("322349092034");
         return resultCode;
     }
 
