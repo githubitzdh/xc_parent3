@@ -9,4 +9,6 @@ import lombok.ToString;
 @Data
 @ToString
 public class RequestData {
+    private  int age;
+    
 }
