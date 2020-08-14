@@ -13,7 +13,6 @@ import java.util.Optional;
 /**
  * @author zhandehuang@itcast.cn
  * @version 1.0
- * @date 2020/6/17 0017
  **/
 @Controller
 @RequestMapping("/student")
