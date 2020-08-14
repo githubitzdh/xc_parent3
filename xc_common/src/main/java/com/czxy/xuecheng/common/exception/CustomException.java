@@ -8,6 +8,7 @@ import com.czxy.xuecheng.common.model.response.ResultCode;
  **/
 public class CustomException extends RuntimeException {
 
+    //544565465
     //错误代码
     ResultCode resultCode;
 
