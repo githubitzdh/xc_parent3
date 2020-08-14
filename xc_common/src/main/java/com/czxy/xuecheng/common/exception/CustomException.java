@@ -17,7 +17,7 @@ public class CustomException extends RuntimeException {
         System.err.println("测试数据");
     }
     public ResultCode getResultCode(){
-        System.err.println("65654645323213232321");
+        System.err.println("5132321");
         return resultCode;
     }
 
