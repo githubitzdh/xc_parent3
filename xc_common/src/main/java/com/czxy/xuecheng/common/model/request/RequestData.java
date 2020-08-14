@@ -9,6 +9,6 @@ import lombok.ToString;
 @Data
 @ToString
 public class RequestData {
-    private  int age;
-    
+    private  int age =18;
+
 }
