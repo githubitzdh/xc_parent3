@@ -7,7 +7,7 @@ package com.czxy.xuecheng.common.client;
  */
 public class XcServiceList {
 
-
+///213213213
     public static final String XC_GOVERN_CENTER = "xc_govern_center";
     public static final String XC_SERVICE_PORTALVIEW = "xc_service_portalview";
     public static final String XC_SERVICE_SEARCH = "xc_service_search";
