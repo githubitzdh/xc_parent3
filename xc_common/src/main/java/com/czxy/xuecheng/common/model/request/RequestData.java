@@ -5,6 +5,7 @@ import lombok.ToString;
 
 /**
  * 通用请求封装对象
+ * 詹姆斯是我儿子
  */
 @Data
 @ToString
